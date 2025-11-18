@@ -1,29 +1,24 @@
 🍽️ Spice Haven – Restaurant Menu Display API
-📌 1. About the Restaurant
+📌 About
 
-Spice Haven is a modern multi-cuisine restaurant offering flavorful appetizers, rich main courses, refreshing beverages, and irresistible desserts.
-Our menu blends traditional Indian spices with global tastes to give customers a delicious dining experience.
+Spice Haven is a multi-cuisine restaurant offering appetizers, main courses, desserts, and beverages.
+This project provides a simple Node.js + Express API to display menu items along with a basic frontend page.
 
-📌 2. Project Description
+📌 Project Description
 
-This project is a Restaurant Menu Display API built using Node.js and Express.js.
-It provides menu data through API endpoints and displays them on a simple frontend web page using HTML, CSS, and JavaScript.
+This project includes:
 
-The project includes:
+3 API endpoints
 
-Three API endpoints
+Vegetarian filter endpoint
 
-Vegetarian filter
+Category counter endpoint
 
-Category counter
+Frontend webpage using HTML, CSS, JavaScript
 
-Frontend page that fetches and displays menu items
+Dynamic menu display using Fetch API
 
-Clean UI and dynamic content rendering
-
-📌 3. Menu Categories Available
-
-This menu includes the following categories:
+📌 Menu Categories
 
 Appetizer
 
@@ -32,3 +27,15 @@ Main Course
 Dessert
 
 Beverage
+
+📌 How to Run
+npm install
+node server.js
+
+
+Then open the browser at:
+http://localhost:3000
+
+📌 GitHub Link
+
+https://github.com/Najanafeesakamal/Restaurantmenu.git
